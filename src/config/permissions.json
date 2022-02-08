@@ -1,0 +1,234 @@
+[
+  {
+    "buttonId": "app_center",
+    "name": "应用中心",
+    "apiPath": []
+  },
+  {
+    "buttonId": "app_center_list",
+    "name": "应用中心",
+    "apiPath": [
+      "/pib/app-store/service-list"
+    ]
+  },
+  {
+    "buttonId": "equipment",
+    "name": "设备管理",
+    "apiPath": []
+  },
+  {
+    "buttonId": "equipment_list",
+    "name": "设备列表",
+    "apiPath": [
+      "/pib/equipment/list"
+    ]
+  },
+  {
+    "buttonId": "equipment_import",
+    "name": "导入设备",
+    "apiPath": [
+      "/pib/equipment/import"
+    ]
+  },
+  {
+    "buttonId": "equipment_add",
+    "name": "添加设备",
+    "apiPath": [
+      "/pib/equipment/add"
+    ]
+  },
+  {
+    "buttonId": "equipment_delete",
+    "name": "删除设备",
+    "apiPath": [
+      "/pib/equipment/delete"
+    ]
+  },
+  {
+    "buttonId": "equipment_modify",
+    "name": "编辑设备",
+    "apiPath": [
+      "/pib/equipment/modify"
+    ]
+  },
+  {
+    "buttonId": "equipment_detail",
+    "name": "查看详情",
+    "apiPath": []
+  },
+  {
+    "buttonId": "system",
+    "name": "系统管理",
+    "apiPath": []
+  },
+  {
+    "buttonId": "system_config_list",
+    "name": "系统配置",
+    "apiPath": [
+      "/pib/system-config/service-list"
+    ]
+  },
+  {
+    "buttonId": "system_config_add",
+    "name": "添加系统配置",
+    "apiPath": [
+      "/pib/system-config/service-add"
+    ]
+  },
+  {
+    "buttonId": "system_config_delete",
+    "name": "删除系统配置",
+    "apiPath": [
+      "/pib/system-config/service-delete"
+    ]
+  },
+  {
+    "buttonId": "system_config_modify",
+    "name": "编辑系统配置",
+    "apiPath": [
+      "/pib/system-config/service-modify"
+    ]
+  },
+  {
+    "buttonId": "system_config_detail_add",
+    "name": "系统配置详情添加",
+    "apiPath": [
+      "/pib/system-config/service-detail-add"
+    ]
+  },
+  {
+    "buttonId": "system_config_detail_modify",
+    "name": "系统配置详情修改",
+    "apiPath": [
+      "/pib/system-config/service-detail-modify"
+    ]
+  },
+  {
+    "buttonId": "system_config_detail",
+    "name": "查看系统配置详情",
+    "apiPath": [
+      "/pib/system-config/service-detail"
+    ]
+  },
+  {
+    "buttonId": "account",
+    "name": "账户管理",
+    "apiPath": []
+  },
+  {
+    "buttonId": "account_user",
+    "name": "用户管理",
+    "apiPath": [
+      "/pib/user/list",
+      "/pib/organization/list-all",
+      "/pib/role/list-all"
+    ]
+  },
+  {
+    "buttonId": "account_user_add",
+    "name": "用户管理-添加用户",
+    "apiPath": [
+      "/pib/user/add"
+    ]
+  },
+  {
+    "buttonId": "account_user_modify",
+    "name": "用户管理-编辑用户",
+    "apiPath": [
+      "/pib/user/update"
+    ]
+  },
+  {
+    "buttonId": "account_user_enable",
+    "name": "用户管理-启用",
+    "apiPath": [
+      "/pib/user/update"
+    ]
+  },
+  {
+    "buttonId": "account_user_disable",
+    "name": "用户管理-禁用",
+    "apiPath": [
+      "/pib/user/update"
+    ]
+  },
+  {
+    "buttonId": "account_user_reset_password",
+    "name": "用户管理-重置密码",
+    "apiPath": [
+      "/pib/user/reset-password"
+    ]
+  },
+  {
+    "buttonId": "account_user_delete",
+    "name": "用户管理-删除",
+    "apiPath": [
+      "/pib/user/delete"
+    ]
+  },
+  {
+    "buttonId": "account_role",
+    "name": "角色管理",
+    "apiPath": [
+      "/pib/role/list"
+    ]
+  },
+  {
+    "buttonId": "account_role_add",
+    "name": "角色管理-添加角色",
+    "apiPath": [
+      "/pib/role/add"
+    ]
+  },
+  {
+    "buttonId": "account_role_modify",
+    "name": "角色管理-修改角色",
+    "apiPath": [
+      "/pib/role/modify",
+      "/pib/role/detail"
+    ]
+  },
+  {
+    "buttonId": "account_role_delete",
+    "name": "角色管理-删除角色",
+    "apiPath": [
+      "/pib/role/delete"
+    ]
+  },
+  {
+    "buttonId": "account_organization",
+    "name": "组织管理",
+    "apiPath": [
+      "/pib/organization/list-all",
+      "/pib/organization/list"
+    ]
+  },
+  {
+    "buttonId": "account_organization_add",
+    "name": "组织管理-添加组织",
+    "apiPath": [
+      "/pib/organization/add"
+    ]
+  },
+  {
+    "buttonId": "account_organization_modify",
+    "name": "组织管理-编辑组织",
+    "apiPath": [
+      "/pib/organization/modify"
+    ]
+  },
+  {
+    "buttonId": "account_organization_delete",
+    "name": "组织管理-删除组织",
+    "apiPath": [
+      "/pib/organization/delete"
+    ]
+  },
+  {
+    "buttonId": "account_organization_api_config",
+    "name": "组织管理-API权限",
+    "apiPath": [
+      "/pib/organization/service-list"
+    ]
+  }
+]
